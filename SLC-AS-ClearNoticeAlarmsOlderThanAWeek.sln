@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{EA482C26-1B4C-430E-9E1E-29B5D78D564F}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\.editorconfig = Internal\.editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{15204136-0789-468F-9CCC-39AF714500F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{49A21895-74FC-42B7-BDC4-B21E40B30A18}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\ABOUT.md = Dlls\ABOUT.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{A37ACFF9-70C3-49D7-83A8-2D854096BA18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{B5ABF28A-3CF6-4A36-AD73-21A1D4C6BDB2}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{DC1E1059-3D77-4CB4-B90F-1396C6891518}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\ABOUT.md = Documentation\ABOUT.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F8938D60-51A0-4880-9CFC-19C66379BB5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{C97E3426-BA8C-443A-8D92-E1878306E6F7}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clear Notice Alarms Older Than A Week", "Clear Notice Alarms Older Than A Week", "{F87371D2-9731-48CD-B13B-835D893355D5}"
+	ProjectSection(SolutionItems) = preProject
+		Clear Notice Alarms Older Than A Week.xml = Clear Notice Alarms Older Than A Week.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{A60953A4-D57E-4B8B-8A9D-6DADC0A381E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clear Notice Alarms Older Than A Week_1", "Clear Notice Alarms Older Than A Week_1\Clear Notice Alarms Older Than A Week_1.csproj", "{D0DC1D12-9B6B-4F1D-B46F-39013EBF0F08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0DC1D12-9B6B-4F1D-B46F-39013EBF0F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DC1D12-9B6B-4F1D-B46F-39013EBF0F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DC1D12-9B6B-4F1D-B46F-39013EBF0F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DC1D12-9B6B-4F1D-B46F-39013EBF0F08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5ABF28A-3CF6-4A36-AD73-21A1D4C6BDB2} = {A37ACFF9-70C3-49D7-83A8-2D854096BA18}
+		{C97E3426-BA8C-443A-8D92-E1878306E6F7} = {EA482C26-1B4C-430E-9E1E-29B5D78D564F}
+		{F87371D2-9731-48CD-B13B-835D893355D5} = {15204136-0789-468F-9CCC-39AF714500F5}
+		{A60953A4-D57E-4B8B-8A9D-6DADC0A381E3} = {F87371D2-9731-48CD-B13B-835D893355D5}
+		{D0DC1D12-9B6B-4F1D-B46F-39013EBF0F08} = {A60953A4-D57E-4B8B-8A9D-6DADC0A381E3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA6D79F2-7845-450F-AD7B-785EBBE72B4C}
+	EndGlobalSection
+EndGlobal
